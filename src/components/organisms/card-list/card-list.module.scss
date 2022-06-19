@@ -21,4 +21,8 @@
     grid-row: 4/6;
   }
 
+  :nth-last-child(-n+1) {
+    grid-column: 2/4;
+
+  }
 }
