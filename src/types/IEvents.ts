@@ -34,4 +34,7 @@ export interface IEvents {
     type: string;
     images: IImage[];
     sales: ISales;
+    selected?: boolean;
+    startDateTime?: Date | string;
+    priceRanges?: any
 }

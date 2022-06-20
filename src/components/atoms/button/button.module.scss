@@ -1,0 +1,19 @@
+.container {
+  border: none;
+  width: 100%;
+  color: var(--dark-blue);
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.large {
+  font-size: 14px;
+  background: var(--emphasis-blue);
+  padding: 15px;
+}

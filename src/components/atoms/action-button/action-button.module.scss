@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--pure-white);
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+
+  i {
+    transform: translateY(1px);
+  }
+}

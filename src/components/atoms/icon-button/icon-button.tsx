@@ -13,11 +13,11 @@ interface IconButtonProps {
 
 const IconButton: FC<IconButtonProps> = ({iconClassName, buttonClassName, icon}) => {
     return (
-        <div  className={classNames(styles['container'], buttonClassName)}>
+        <button type='button' className={classNames(styles['container'], buttonClassName)}>
             <span className={classNames(iconClassName)}>
-                <i className={icon} />
+                <i className={icon}/>
             </span>
-        </div>
+        </button>
     );
 };
 

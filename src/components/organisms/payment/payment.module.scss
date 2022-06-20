@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .payment-container {
+    background-color: var(--dark-blue);
+    display: grid;
+    grid-template-columns: 500px 600px;
+    border-radius: 8px;
+    padding: 10px;
+  }
+}
+
+@media(max-width: 1052px){
+  .container {
+    .payment-container {
+      grid-template-columns: 1fr;
+
+    }
+  }
+}
+
+@media(max-width: 620px){
+  .container {
+    .payment-container {
+      grid-template-columns: 500px;
+    }
+  }
+}

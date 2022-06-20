@@ -8,6 +8,7 @@ export const initialEvents: IEvents[] = [
         images: [{
             url: '',
         }],
+        startDateTime: '',
         sales: {
             public: {
                 startDateTime: '',

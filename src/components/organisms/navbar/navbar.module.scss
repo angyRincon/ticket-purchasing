@@ -22,11 +22,32 @@
   }
 
   nav {
+    display: flex;
+    gap: 25px;
     text-align: right;
     position: relative;
 
     .menu-icon {
       color: var(--white)
+    }
+
+    .card-notification {
+      position: relative;
+
+      .notification {
+        background-color: var(--main);
+        color: var( --white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        font-size: 14px;
+      }
     }
   }
 }
