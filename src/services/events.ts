@@ -5,7 +5,7 @@ class Events {
 
     static async getEvents() {
         try {
-            return await axios.get('https://app.ticketmaster.com/discovery/v2/events.json?apikey=ztYK25RmKx8KOsJazhKkTbwrD0DeTAdE&classificationName=festival')
+            return await axios.get(`https://app.ticketmaster.com/discovery/v2/events.json?apikey=${process.env.REACT_APP_API_KEY}&classificationName=festival`)
         } catch (e) {
             throw e;
         }
